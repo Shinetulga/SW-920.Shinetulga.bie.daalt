@@ -63,7 +63,7 @@ document.querySelector(".btn-roll").addEventListener("click", function() {
     diceDom.style.display = "block";
 
     // Буусан санамсаргүй тоонд харгалзах шооны зургийг вэб дээр гаргаж ирнэ.
-    diceDom.src = "./img/dice-" + diceNumber + ".png";
+    diceDom.src = "./dice-" + diceNumber + ".png";
 
     // Буусан тоо нь 1 ээс ялгаатай бол идэвхтэй тоглогчийн ээлжийн оноог нэмэгдүүлнэ.
     if (diceNumber !== 1) {
